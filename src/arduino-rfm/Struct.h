@@ -44,6 +44,9 @@ struct sRFM_pins{
     int DIO1;
     int DIO2;
     int DIO5;
+    int SCK;
+    int MISO;
+    int MOSI;
 };
 // common def
 extern const sRFM_pins RFM_pins;
